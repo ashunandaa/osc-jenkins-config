@@ -153,6 +153,7 @@
       <properties class="hudson.model.View$PropertyList"/>
       <jobNames>
         <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>2_5_ovf</string>
       </jobNames>
       <jobFilters/>
       <columns>
