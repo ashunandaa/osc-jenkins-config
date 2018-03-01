@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson.tools.JDKInstaller_-DescriptorImpl>
-  <username>greatguns@gmail.com</username>
-  <password>{AQAAABAAAAAQJjBf2K1ZJHFJTxvECdRBAxIZGfCKRK1JQod0RHfxAPw=}</password>
+  <username>sys_osc-build@intel.com</username>
+  <password>{AQAAABAAAAAQ9i1Ru3YSL2rcewOShKZ27D0Ybvvh0dTZGjQ9TzESakY=}</password>
 </hudson.tools.JDKInstaller_-DescriptorImpl>
