@@ -49,6 +49,7 @@
     <hudson.tasks.Ant plugin="ant@1.8">
       <targets>ovf</targets>
       <antName>1.9.4</antName>
+      <buildFile>vmiDCAll</buildFile>
     </hudson.tasks.Ant>
     <hudson.tasks.Shell>
       <command>sudo mv -v vmiDCAll/Build* /var/www/vsc-builds/2_5/</command>
