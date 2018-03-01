@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
@@ -36,7 +37,7 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <jdk>(System)</jdk>
+  <jdk>JDK 7</jdk>
   <triggers>
     <hudson.triggers.SCMTrigger>
       <spec>0 0 * * *</spec>
@@ -47,7 +48,7 @@
   <builders>
     <hudson.tasks.Ant plugin="ant@1.8">
       <targets>ovf</targets>
-      <antName>(Default)</antName>
+      <antName>1.9.4</antName>
     </hudson.tasks.Ant>
     <hudson.tasks.Shell>
       <command>sudo mv -v vmiDCAll/Build* /var/www/vsc-builds/2_5/</command>
