@@ -13,7 +13,7 @@
       </strategy>
     </jenkins.model.BuildDiscarderProperty>
   </properties>
-  <scm class="hudson.scm.SubversionSCM" plugin="subversion@2.10.2">
+  <scm class="hudson.scm.SubversionSCM" plugin="subversion@2.10.3">
     <locations>
       <hudson.scm.SubversionSCM_-ModuleLocation>
         <remote>https://ssvn.sc.intel.com/dev/osc/vmidc/branches/2_5/server</remote>
@@ -47,7 +47,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Ant plugin="ant@1.8">
-      <targets>ovf</targets>
+      <targets>ovfOnly</targets>
       <antName>1.9.4</antName>
       <buildFile>vmiDCAll</buildFile>
     </hudson.tasks.Ant>
