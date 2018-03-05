@@ -75,7 +75,7 @@ cd robot
 #env
 
 echo running automation on Newton
-pybot -d ../results -v testbed:104.robot -A DS.robot</command>
+pybot -d ../results -v testbed:104.robot  DS.robot</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
