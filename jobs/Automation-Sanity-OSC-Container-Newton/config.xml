@@ -27,7 +27,7 @@ and run the Sanity automation on the Newton environment</description>
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>*/test</name>
+        <name>*/sgtests</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -75,7 +75,7 @@ cd robot
 #env
 
 echo running automation on Newton
-pybot -d ../results -v testbed:134.robot SanityNoSFC.robot</command>
+pybot -d ../results -v testbed:104.robot Multiple-Suites-Full.robot</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
