@@ -56,6 +56,7 @@
           <permission>hudson.model.Run.Update</permission>
         </permissions>
         <assignedSIDs>
+          <sid>samiran</sid>
           <sid>anadendl</sid>
           <sid>admin</sid>
           <sid>rpravee1</sid>
