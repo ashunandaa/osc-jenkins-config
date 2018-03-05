@@ -126,7 +126,7 @@ pybot -d ../results -v testbed:134.robot SanityNoSFC.robot</command>
     </com.michelin.cio.hudson.plugins.copytoslave.CopyToMasterNotifier>
     <hudson.tasks.Mailer plugin="mailer@1.20">
       <recipients>girish.hugar@intel.com</recipients>
-      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <dontNotifyEveryUnstableBuild>true</dontNotifyEveryUnstableBuild>
       <sendToIndividuals>false</sendToIndividuals>
     </hudson.tasks.Mailer>
   </publishers>
