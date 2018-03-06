@@ -12,7 +12,6 @@
   <mode>NORMAL</mode>
   <useSecurity>true</useSecurity>
   <authorizationStrategy class="com.michelin.cio.hudson.plugins.rolestrategy.RoleBasedAuthorizationStrategy">
-    <roleMap type="projectRoles"/>
     <roleMap type="globalRoles">
       <role name="Anonymous" pattern=".*">
         <permissions>
@@ -63,7 +62,6 @@
         </assignedSIDs>
       </role>
     </roleMap>
-    <roleMap type="slaveRoles"/>
   </authorizationStrategy>
   <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
     <disableSignup>false</disableSignup>
